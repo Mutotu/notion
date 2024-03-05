@@ -1,6 +1,6 @@
 export type NodeType = "text" | "image" | "list" | "page" | "heading1" | "heading2" | "heading3"
 
-export type NodeDate = {
+export type NodeData = {
     id: string
     type: NodeType
     value: string
